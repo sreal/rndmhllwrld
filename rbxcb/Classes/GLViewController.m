@@ -70,18 +70,84 @@
 
 	
 	glLoadIdentity();
-	glTranslatef(0.0f, 0.0f, -3.0f);
+
+	
+	glTranslatef(-2.0f, 2.0f, -8.0f);
+	
+	//rotate from center
 	glRotatef(rotationX, 0.0f, 1.0f, 0.0f);
 	glRotatef(rotationY, 1.0f, 0.0f, 0.0f);
-	glRotatef(rotationZ, 0.0f, 0.0f, 1.0f);
-	
+	glRotatef(rotationZ, 0.0f, 0.0f, 0.0f);
+
+
 	glClearColor(0.7, 0.7, 0.7, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 	glEnableClientState(GL_VERTEX_ARRAY);
 	glEnableClientState(GL_COLOR_ARRAY);
 	glVertexPointer(3, GL_FLOAT, 0, vertices);
 	glColorPointer(4, GL_FLOAT, 0, colors);
+	
 	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, 2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, 2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, .0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+
+	
+	glTranslatef(2.0f, 4.0f, 4.0f);	
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, 2.0f);
+	//glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, .0f, 2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, .0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+
+	glTranslatef(2.0f, 4.0f, 4.0f);	
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, 2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, .0f, 2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	glTranslatef(0.0f, -2.0f, 0.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, 0.0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);	
+	glTranslatef(0.0f, .0f, -2.0f);
+	glDrawElements(GL_TRIANGLES, 60, GL_UNSIGNED_BYTE, icosahedronFaces);
+	
+		glTranslatef(0.0f, 0.0f, -6.0f);
+	
+	//jump out
+
 	
 	glDisableClientState(GL_VERTEX_ARRAY);
 	glDisableClientState(GL_COLOR_ARRAY);
