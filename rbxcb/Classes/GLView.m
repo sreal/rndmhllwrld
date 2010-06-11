@@ -153,4 +153,38 @@
     [super dealloc];
 }
 
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *) event {
+	NSLog(@"DEBUG: Touches began" );
+	UITouch *touch = [touches anyObject];
+	
+	if ( 1 < touch.tapCount) 
+	{
+		[delegate resetRotation];
+	}
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+	NSLog(@"DEBUG: Touches cancelled");
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {	
+	NSLog(@"DEBUG: Touches ended");
+	// Note that if phone rings, touchesCancelled will fire instead of touchesEnded
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	NSLog(@"DEBUG: Touches moved" );
+	//	UITouch *touch = [touches anyObject];
+	UITouch *touch = [touches anyObject];
+	CGPoint currentTouch = [touch locationInView:self];
+	CGPoint previousTouch = [touch previousLocationInView:self];
+	
+	GLfloat	deltaX = currentTouch.x - previousTouch.x;
+	GLfloat	deltaY = currentTouch.y - previousTouch.y;
+	
+	[delegate increaseXRotation:deltaX];
+	[delegate increaseYRotation:deltaY];
+
+}
 @end

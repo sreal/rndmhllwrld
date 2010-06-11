@@ -1,7 +1,7 @@
 Trbxcb
 v7
 r0
-t297849518.344157
+t297953779.187439
 cCheck dependencies
 cProcessInfoPlistFile /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/Info.plist rbxcb-Info.plist
 cCompileXIB /Users/sre/Projects/rndhllwrld/rbxcb/MainWindow.xib
@@ -87,34 +87,35 @@ t1276078991
 s1265
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.h
-c000000004C0F6B8F000000000000034D
-t1276078991
-s845
+c000000004C1231B200000000000004F3
+t1276260786
+s1267
 i<UIKit/UIKit.h>
 i<OpenGLES/EAGL.h>
 i<OpenGLES/ES1/gl.h>
 i<OpenGLES/ES1/glext.h>
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m
-c000000004C0F6B8F0000000000001181
-t1276078991
-s4481
+c000000004C12309A000000000000155D
+t1276260506
+s5469
 i<QuartzCore/QuartzCore.h>
 i<OpenGLES/EAGLDrawable.h>
 i"GLView.h"
 i"ConstantsAndMacros.h"
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.h
-c000000004C0F6B8F0000000000000102
-t1276078991
-s258
+c000000004C12324700000000000001EB
+t1276260935
+s491
 i<UIKit/UIKit.h>
 i"GLView.h"
+i"OpenGLCommon.h"
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m
-c000000004C109B2D0000000000000D15
-t1276156717
-s3349
+c000000004C12326B0000000000000E7A
+t1276260971
+s3706
 i"GLViewController.h"
 i"ConstantsAndMacros.h"
 i"OpenGLCommon.h"
@@ -168,11 +169,11 @@ t1276078991
 s22948
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app
-t1276156718
+t1276260979
 s238
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app.dSYM
-t1276156718
+t1276260979
 s102
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/Info.plist
@@ -192,16 +193,16 @@ t1276080008
 s8
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb
-t1276156718
-s35068
+t1276260978
+s36104
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLView.o
-t1276080012
-s21180
+t1276260909
+s26856
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLViewController.o
-t1276156718
-s34552
+t1276260978
+s36100
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/OpenGLTexture3D.o
 t1276080013
@@ -217,7 +218,7 @@ t1276080007
 s617
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcbAppDelegate.o
-t1276080012
+t1276260909
 s19608
 
 N/Users/sre/Projects/rndhllwrld/rbxcb/main.m
@@ -245,11 +246,11 @@ s974
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies297849517#297849517#0(0"0(0#1#0"2426380320#0"0#
+lSLF07#2@18"Check dependencies297953778#297953778#0(0"0(0#1#0"2426380320#0"0#
 
 CCompileC build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLView.o /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297772812.418888
-e297772812.700631
+s297953709.438799
+e297953709.843223
 r1
 xCompileC
 xbuild/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLView.o
@@ -258,11 +259,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m297772812#297772812#0(0"0(0#0#53"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m2440089632#1807"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLView.o0#
+lSLF07#2@61"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m297953709#297953709#0(0"0(0#0#53"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m2426380320#1807"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLView.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLView.o0#
 
 CCompileC build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLViewController.o /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297849517.422443
-e297849518.041455
+s297953778.030339
+e297953778.621381
 r1
 xCompileC
 xbuild/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLViewController.o
@@ -271,7 +272,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m297849517#297849518#0(0"0(0#0#63"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m2426380320#1827"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLViewController.o0#
+lSLF07#2@71"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m297953778#297953778#0(0"0(0#0#63"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m2426380320#1827"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/GLViewController.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/GLViewController.o0#
 
 CCompileC build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/OpenGLTexture3D.o /Users/sre/Projects/rndhllwrld/rbxcb/Classes/OpenGLTexture3D.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297772813.026810
@@ -300,8 +301,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@51"Compile /Users/sre/Projects/rndhllwrld/rbxcb/main.m297772811#297772812#0(0"0(0#0#43"/Users/sre/Projects/rndhllwrld/rbxcb/main.m4386904#1795"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/main.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/main.o0#
 
 CCompileC build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcbAppDelegate.o /Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297772812.202114
-e297772812.418430
+s297953709.123588
+e297953709.438251
 r1
 xCompileC
 xbuild/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcbAppDelegate.o
@@ -310,7 +311,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m297772812#297772812#0(0"0(0#0#63"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m2440089632#1827"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcbAppDelegate.o0#
+lSLF07#2@71"Compile /Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m297953709#297953709#0(0"0(0#0#63"/Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m2426380320#1827"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -include /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch -c /Users/sre/Projects/rndhllwrld/rbxcb/Classes/rbxcbAppDelegate.m -o /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcbAppDelegate.o0#
 
 CCompileXIB /Users/sre/Projects/rndhllwrld/rbxcb/MainWindow.xib
 s297772808.066092
@@ -331,23 +332,23 @@ o/Users/sre/Projects/rndhllwrld/rbxcb/Resources-iPad/MainWindow-iPad.xib:2: warn
 lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib297772808#297772810#0(215"/* com.apple.ibtool.document.warnings *//Users/sre/Projects/rndhllwrld/rbxcb/Resources-iPad/MainWindow-iPad.xib:2: warning: The "Full Screen at Launch" property is not available on iPhone OS versions prior to 3.2.1(22@89"The "Full Screen at Launch" property is not available on iPhone OS versions prior to 3.2.297772810#4294967295#0#0(6@71"/Users/sre/Projects/rndhllwrld/rbxcb/Resources-iPad/MainWindow-iPad.xib297771791#2#0#2#0#0"0(0#0#71"/Users/sre/Projects/rndhllwrld/rbxcb/Resources-iPad/MainWindow-iPad.xib2440089632#497"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/MainWindow-iPad.nib /Users/sre/Projects/rndhllwrld/rbxcb/Resources-iPad/MainWindow-iPad.xib0#
 
 CGenerateDSYMFile /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app.dSYM /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb
-s297849518.238696
-e297849518.319317
+s297953778.952476
+e297953779.172254
 r1
 xGenerateDSYMFile
 x/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app.dSYM
 x/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb
-lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/rbxcb.app.dSYM build/Debug-iphonesimulator/rbxcb.app/rbxcb297849518#297849518#0(0"0(0#0#80"/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb2426380320#371"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb -o /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app.dSYM0#
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/rbxcb.app.dSYM build/Debug-iphonesimulator/rbxcb.app/rbxcb297953778#297953779#0(0"0(0#0#80"/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb2426380320#371"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb -o /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app.dSYM0#
 
 CLd /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb normal i386
-s297849518.041891
-e297849518.238216
+s297953778.621807
+e297953778.951924
 r1
 xLd
 x/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb
 xnormal
 xi386
-lSLF07#2@85"Link /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb297849518#297849518#0(0"0(0#0#0"2426380320#884"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -filelist /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcb.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb0#
+lSLF07#2@85"Link /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb297953778#297953778#0(0"0(0#0#0"2426380320#884"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -filelist /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/Objects-normal/i386/rbxcb.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/rbxcb0#
 
 CProcessInfoPlistFile /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app/Info.plist rbxcb-Info.plist
 s297772807.995992
@@ -372,10 +373,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@27"Precompile rbxcb_Prefix.pch297772810#297772811#0(0"0(0#0#53"/Users/sre/Projects/rndhllwrld/rbxcb/rbxcb_Prefix.pch4386904#1691"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-generated-files.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-own-target-headers.hmap -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-all-target-headers.hmap -iquote /Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/rbxcb-project-headers.hmap -F/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator -I/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/include -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources/i386 -I/Users/sre/Projects/rndhllwrld/rbxcb/build/rbxcb.build/Debug-iphonesimulator/rbxcb.build/DerivedSources -c /Users/sre/Projects/rndhllwrld/rbxcb/rbxcb_Prefix.pch -o /var/folders/TZ/TZEm98myFTeoAPevvtIMP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rbxcb_Prefix-fbmevektzbafdqccziwacnewpsvy/rbxcb_Prefix.pch.gch0#
 
 CTouch /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app
-s297849518.319717
-e297849518.343961
+s297953779.172675
+e297953779.187170
 r1
 xTouch
 x/Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app
-lSLF07#2@80"Touch /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app297849518#297849518#0(0"0(0#0#0"2426380320#272"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app0#
+lSLF07#2@80"Touch /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app297953779#297953779#0(0"0(0#0#0"2426380320#272"    cd /Users/sre/Projects/rndhllwrld/rbxcb    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sre/Projects/rndhllwrld/rbxcb/build/Debug-iphonesimulator/rbxcb.app0#
 

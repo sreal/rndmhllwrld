@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "GLView.h"
+#import "OpenGLCommon.h"
 
 @interface GLViewController : UIViewController <GLViewDelegate>
 {
+	GLfloat rotationX;
+	GLfloat	rotationY;
+	GLfloat rotationZ;
 }
+-(void)increaseXRotation:(GLfloat)aValue;
+-(void)increaseYRotation:(GLfloat)aValue;
+-(void)increaseZRotation:(GLfloat)aValue;
+-(void)resetRotation;
 @end

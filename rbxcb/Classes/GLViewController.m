@@ -12,7 +12,7 @@
 @implementation GLViewController
 - (void)drawView:(UIView *)theView
 {
-	static		GLfloat rotation = 0.0;
+
 	// This is the same result as using Vertex3D, just faster to type and
     // can be made const this way
     static const Vertex3D vertices[]= {
@@ -68,10 +68,13 @@
          4,  8,  0,
     };
 
+	
 	glLoadIdentity();
 	glTranslatef(0.0f, 0.0f, -3.0f);
-	glRotatef(rotation, 1.0f, 1.0f, 1.0f);
-
+	glRotatef(rotationX, 0.0f, 1.0f, 0.0f);
+	glRotatef(rotationY, 1.0f, 0.0f, 0.0f);
+	glRotatef(rotationZ, 0.0f, 0.0f, 1.0f);
+	
 	glClearColor(0.7, 0.7, 0.7, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 	glEnableClientState(GL_VERTEX_ARRAY);
@@ -86,8 +89,8 @@
 	static NSTimeInterval lastDrawTime;
 	if (lastDrawTime) 
 	{
-		NSTimeInterval timeSinceLastDraw = [NSDate timeIntervalSinceReferenceDate] - lastDrawTime;
-		rotation	+= 50 * timeSinceLastDraw;
+		//NSTimeInterval timeSinceLastDraw = [NSDate timeIntervalSinceReferenceDate] - lastDrawTime;
+		//rotX = 50 * timeSinceLastDraw;
 	}
 	lastDrawTime = [NSDate timeIntervalSinceReferenceDate];
 			
@@ -110,5 +113,23 @@
 - (void)dealloc 
 {
     [super dealloc];
+}
+-(void)increaseXRotation:(GLfloat)aValue
+{
+	rotationX = rotationX + aValue;
+}
+-(void)increaseYRotation:(GLfloat)aValue
+{
+	rotationY = rotationY + aValue;
+}
+-(void)increaseZRotation:(GLfloat)aValue
+{
+	rotationZ = rotationZ + aValue;
+}
+-(void)resetRotation
+{
+	rotationX = 0;
+	rotationY = 0;
+	rotationZ = 0;
 }
 @end
